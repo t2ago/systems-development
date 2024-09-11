@@ -1,6 +1,6 @@
-from models.endereco import Endereco
-from models.enums.sexo import Sexo
-from models.enums.setor import Setor
+from models.address import Endereco
+from models.enums.sex import Sexo
+from models.enums.sector import Setor
 
 class Funcionario:
     def __init__(self, id: int, nome: str, cpf: str, rg: str, matricula: str, nascimento: str, sexo: Sexo, setor: Setor, salario: float, telefone: str, email: str, endereco: Endereco) -> None:
