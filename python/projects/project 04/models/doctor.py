@@ -7,6 +7,7 @@ class Medico:
 
     def __str__(self) -> str:
         return (
-                f"{self.funcionario}"
-                f"CRM: {self.crm}"
+                f"\nMédico"
+                f"\n{self.funcionario}"
+                f"\nCRM: {self.crm}"
                 )

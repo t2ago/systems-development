@@ -7,6 +7,7 @@ class Advogado:
 
     def __str__(self) -> str:
         return (
-                f"{self.funcionario}"
-                f"OAB: {self.oab}"
+                f"\nAdvogado"
+                f"\n{self.funcionario}"
+                f"\nOAB: {self.oab}"
                 )
