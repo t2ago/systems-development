@@ -8,7 +8,8 @@ class Juridica:
 
     def __str__(self) -> str:
         return (
-                f"{self.pessoa}"
+                f"Dono"
+                f"\n{self.pessoa}"
                 f"\nCNPJ: {self.cnpj}"
                 f"\nInscrição Estadual: {self.inscricaoEstadual}"
                 )
